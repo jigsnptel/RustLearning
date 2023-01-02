@@ -3,6 +3,7 @@ This is the repository for learning Rust
 # Installation
 ## Mac OS or Linux
 $ curl --proto '=https' --tlsv1.3 https://sh.rustup.rs -sSf | sh
+
 $ xcode-select –install
 ## Windows
 To acquire the build tools, you’ll need to install Visual Studio 2022. When asked which workloads to install, include:
