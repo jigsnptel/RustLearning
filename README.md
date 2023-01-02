@@ -20,7 +20,9 @@ rustup self uninstall
 
 ## Rust Hello world
 Create project directory
+
 Open main.rs file in the choice of your editor 
+
     fn main() {
          println!("Hello, world!");
       }
@@ -40,8 +42,11 @@ $ .\main.exe
 Hello, world! �
 # Rust Cargo
 $ cargo new hello_cargo 
-$ cd hello_cargo 
+
+$ cd hello_cargo
+
 $ cargo run 
+
 Hello, world!
 ## Main.rs file
 fn main() {
