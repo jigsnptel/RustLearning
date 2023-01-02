@@ -7,7 +7,9 @@ $ xcode-select –install
 ## Windows
 To acquire the build tools, you’ll need to install Visual Studio 2022. When asked which workloads to install, include:
 “Desktop Development with C++”
+
 The Windows 10 or 11 SDK
+
 The English language pack component, along with any other language pack of your choosing
 Install rust using https://www.rust-lang.org/tools/install
 
@@ -30,6 +32,7 @@ Open main.rs file in the choice of your editor
 ## On mac Os or Linux
 
 $ rustc main.rs 
+
 $ ./main 
 
 Hello, world! �
@@ -37,6 +40,7 @@ Hello, world! �
 ## On Windows
 
 $ rustc main.rs 
+
 $ .\main.exe 
 
 Hello, world! �
@@ -55,8 +59,11 @@ fn main() {
 
 ## Cargo.toml
 [package]
+
 name = "hello_cargo"
+
 version = "0.1.0"
+
 edition = "2021"
 
 ### See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
